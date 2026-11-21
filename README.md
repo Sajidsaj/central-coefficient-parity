@@ -1,4 +1,5 @@
 # Parity of central coefficients of (1 + x + ... + x^(w-1))^n
+[![DOI](https://zenodo.org/badge/1466404608.svg)](https://doi.org/10.5281/zenodo.24416400)
 
 Unrefereed research notes with all supporting computations. Author: Sajid Khan Hussain.
 
