@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Parity of central coefficients of (1+x+...+x^(w-1))^n: explicit automata and an inclusion theorem"
+type: software
+authors:
+  - family-names: Hussain
+    given-names: Sajid
+version: "1.0.0"
+date-released: "2026-11-20"
+license: CC-BY-4.0
+abstract: "Unrefereed notes and checks on the parity of the central coefficient of (1+x+...+x^(w-1))^n: explicit finite automata, a closed form for w=6, structure for w=14, and a proof that S_{2^s} is contained in S_{2^s m} for odd m."
+keywords:
+  - OEIS
+  - central coefficients
+  - automatic sequences
+  - parity
