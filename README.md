@@ -4,7 +4,7 @@
 Unrefereed research notes with all supporting computations. Author: Sajid Khan Hussain.
 
 Let `a_w(n)` be the central (largest) coefficient of `(1 + x + ... + x^(w-1))^n`
-(OEIS [A077042](https://oeis.org/A077042) row `w`; A402341 is `w = 16`, A402403 is `w = 14`).
+(OEIS [A077042](https://oeis.org/A077042) row `w`; [A402341](https://oeis.org/A402341) is `w = 16`).
 This repository studies **when `a_w(n)` is odd**.
 
 ## Results and their status
@@ -30,7 +30,7 @@ sequences are automatic mod `p`; we only did not find the explicit statements ab
 - `code/automata.py` builds the parity automaton for any `w`; `code/lucas_parity.py` independent parity formula
 - `code/check_w6.py`, `code/check_w14.py`, `code/check_inclusion.py`, `code/check_table_claims.py`, `code/table.py`; `code/run_all.py` runs the first four
 - `code/check_even_w.py` slower extra check (all even `w <= 48`, about 2 minutes), not part of `run_all.py`
-- `data/` b-files for OEIS A402403 (`b_w14.txt`) and for the sequence "n such that a_14(n) is odd" (`b_odd14.txt`)
+- `data/` b-files: the central coefficients for `w = 14`, n = 0..800 (`b_w14.txt`), and the sequence "n such that a_14(n) is odd" (`b_odd14.txt`)
 
 ## Run
 ```
